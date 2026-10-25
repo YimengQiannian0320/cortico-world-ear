@@ -1,0 +1,33 @@
+{
+  "name": "cortico-world-ear",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cortico World: an on-demand ear — records a few seconds of the room and asks a local Qwen2.5-Omni model what it hears",
+  "license": "MIT",
+  "main": "./src/index.mjs",
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "cortico-world",
+    "audio",
+    "ears",
+    "sound-event",
+    "qwen-omni",
+    "llama.cpp"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "os": [
+    "win32"
+  ],
+  "cortico": {
+    "kind": "world",
+    "api": 6,
+    "displayName": "耳朵 Ears"
+  }
+}

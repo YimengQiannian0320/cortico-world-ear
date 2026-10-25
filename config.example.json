@@ -1,0 +1,16 @@
+{
+  "worlds": {
+    "ear": {
+      "enabled": true,
+      "seconds": 5,
+      "minRmsDb": -45,
+      "mic": "",
+      "ffmpeg": "",
+      "llamaServer": "",
+      "model": "D:/models/Qwen2.5-Omni-3B-Q4_K_M.gguf",
+      "mmproj": "D:/models/mmproj-Qwen2.5-Omni-3B-Q8_0.gguf",
+      "port": 8095,
+      "keepWarmMs": 300000
+    }
+  }
+}

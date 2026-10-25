@@ -1,0 +1,7 @@
+node_modules/
+models/
+bin/
+.testdata/
+*.gguf
+*.log
+.DS_Store
